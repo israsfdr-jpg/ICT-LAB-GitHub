@@ -1,0 +1,115 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: #1e3a8a;
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+/* Form container (class selector) */
+.registration-form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Labels */
+label {
+    display: block;
+    color: #333333;
+    font-size: 15px;
+    margin: 12px 0 5px;
+}
+
+/* Inputs, dropdowns, textarea */
+input,
+select,
+textarea {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 4px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Focus effect */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+/* Radio buttons and checkbox should not stretch full width */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.radio-group {
+    margin-bottom: 5px;
+}
+
+.inline-label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.terms {
+    display: block;
+    margin-top: 15px;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 10px;
+}
+
+button {
+    flex: 1;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-register {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.btn-register:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-reset {
+    background-color: #6b7280;
+    color: #ffffff;
+}
+
+.btn-reset:hover {
+    background-color: #4b5563;
+}
